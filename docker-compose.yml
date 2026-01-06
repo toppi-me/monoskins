@@ -1,0 +1,8 @@
+services:
+  monoskins:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - '127.0.0.1:12351:3000'

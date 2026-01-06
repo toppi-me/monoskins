@@ -1,0 +1,14 @@
+**/node_modules/
+**/dist
+.git
+.gitignore
+npm-debug.log
+.coverage
+.coverage.*
+.aws
+.nuxt
+.output
+.idea
+*.log
+*.md
+*.env
