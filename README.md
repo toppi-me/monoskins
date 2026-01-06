@@ -27,12 +27,6 @@
 2. Оновіть інформацію про скін у файлі `app/data/skins.json` без зміни id та ключа.
 3. Створіть Pull Request до гілки `main`.
 
-## Quick Start
-
-```bash [Terminal]
-npm create nuxt@latest -- -t github:nuxt-ui-templates/starter
-```
-
 ## Setup
 
 Make sure to install the dependencies:
