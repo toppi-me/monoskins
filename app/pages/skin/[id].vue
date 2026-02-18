@@ -2,6 +2,7 @@
 import type { BreadcrumbItem } from '#ui/components/Breadcrumb.vue'
 import type { Skin } from '~/interfaces/skin'
 import skins from '~/data/skins.json'
+import QrcodeVue from 'qrcode.vue'
 
 const route = useRoute()
 const cardId = computed(() => route.params.id as string)
@@ -37,7 +38,9 @@ const receiveCondition = computed(() => {
   }
 
   if (skin.value.isSpecified) {
-    return 'Специфічна дія'
+    return skin.value.minimumValue > 0
+      ? `Специфічна дія. Від ${skin.value.minimumValue} грн`
+      : 'Специфічна дія'
   }
 
   return 'Недоступно'
@@ -122,17 +125,63 @@ useSeoMeta({
             >
           </div>
 
+          <div
+            v-if="isAvailable"
+            class="hidden lg:flex w-full"
+          >
+            <UModal
+              :v-model:open="false"
+              scrollable
+              title="Відскануйте QR"
+            >
+              <UButton
+                class="h-12 w-full justify-center font-bold rounded-xl cursor-pointer"
+                trailing-icon="i-lucide-qr-code"
+                size="xl"
+                color="primary"
+                variant="solid"
+              >
+                Отримати скін
+              </UButton>
+
+              <template #body>
+                <div class="flex flex-col items-center gap-6 relative">
+                  <div class="bg-white p-3 rounded-2xl shrink-0">
+                    <ClientOnly>
+                      <QrcodeVue
+                        :value="skin?.link || ''"
+                        :size="220"
+                        level="M"
+                      />
+                    </ClientOnly>
+                  </div>
+
+                  <UButton
+                    :to="skin?.link"
+                    target="_blank"
+                    variant="soft"
+                    color="neutral"
+                    size="xl"
+                    trailing-icon="i-lucide-arrow-up-right"
+                    class="w-full h-14 justify-center font-bold rounded-xl cursor-pointer mt-2"
+                  >
+                    Перейти за посиланням
+                  </UButton>
+                </div>
+              </template>
+            </UModal>
+          </div>
+
           <UButton
+            v-else
             class="hidden lg:flex h-12 w-full justify-center font-bold rounded-xl"
             trailing-icon="i-lucide-arrow-right"
             size="xl"
-            :to="isAvailable ? skin?.link : undefined"
-            target="_blank"
-            :disabled="!isAvailable"
-            :variant="isAvailable ? 'solid' : 'outline'"
-            :color="isAvailable ? 'primary' : 'neutral'"
+            disabled
+            variant="outline"
+            color="neutral"
           >
-            {{ isAvailable ? 'Отримати скін' : 'Отримати більше неможливо' }}
+            Отримати більше неможливо
           </UButton>
         </div>
       </div>

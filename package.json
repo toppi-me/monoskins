@@ -14,7 +14,8 @@
     "@iconify-json/lucide": "^1.2.82",
     "@iconify-json/simple-icons": "^1.2.63",
     "@nuxt/ui": "^4.3.0",
-    "nuxt": "^4.2.2"
+    "nuxt": "^4.2.2",
+    "qrcode.vue": "^3.8.0"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.12.1",
