@@ -718,5 +718,53 @@
     "link": "https://base.monobank.ua/petrychenko",
     "img": "/skin/petrychenko.png",
     "date": "2025-04-22"
+  },
+  "vms": {
+    "id": "vms",
+    "name": "ВМС ЗС України",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": true,
+    "isJar": false,
+    "isSubscription": false,
+    "isSpecified": false,
+    "minimumValue": 0,
+    "status": "active",
+    "description": "Скін картки monobank, випущений до Дня Військово-Морських Сил ЗС України. Дизайн із бойовим кораблем у штормовому морі та емблемою ВМС — спосіб висловити підтримку українським морякам.\n\nСкін доступний за спеціальним посиланням. Аналогічний тематичний дизайн ВМС ЗС України тоді ж пропонував і ПриватБанк",
+    "link": "https://base.monobank.ua/ds/6QU1jVsovmhkij",
+    "img": "/skin/vms.png",
+    "date": "2026-07-04"
+  },
+  "yanovych": {
+    "id": "yanovych",
+    "name": "Женя Янович КОНТРЛВЕ #16",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": true,
+    "isJar": false,
+    "isSubscription": false,
+    "isSpecified": false,
+    "minimumValue": 0,
+    "status": "active",
+    "description": "Скін картки monobank із кадром-стопом обличчя ведучого, показаний у 16-му випуску шоу КОНТРЛВЕ на YouTube-каналі Жені Яновича (на 6:44).\n\nСкін можна отримати за QR-кодом, показаним у випуску",
+    "link": "https://base.monobank.ua/ds/7mmbKiRoH6DUHY",
+    "img": "/skin/yanovych.png",
+    "date": "2026-07-16"
+  },
+  "mono-career-vdng": {
+    "id": "mono-career-vdng",
+    "name": "Особливий скін. Фестиваль кар'єри",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": true,
+    "isJar": false,
+    "isSubscription": false,
+    "isSpecified": false,
+    "minimumValue": 0,
+    "status": "active",
+    "description": "Скін картки monobank, доступний під час Фестивалю кар'єри на ВДНГ у Києві. Дизайн із котом, який ловить сачком гривні, обігрує тему пошуку роботи та заробітку.\n\nСкін видавався 22 і 24 травня в зоні експрес-співбесід, де monobank|Universal Bank проводив співбесіди на свої вакансії: біля стенду банку стояв банер із QR-кодом і написом «отримай особливий скін»",
+    "link": "https://base.monobank.ua/ds/F9Bt2q8kq3tYA5",
+    "img": "/skin/mono-career-vdng.png",
+    "date": "2026-05-22"
   }
 }
