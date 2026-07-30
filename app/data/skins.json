@@ -766,5 +766,21 @@
     "link": "https://base.monobank.ua/ds/F9Bt2q8kq3tYA5",
     "img": "/skin/mono-career-vdng.png",
     "date": "2026-05-22"
+  },
+  "women-career-day": {
+    "id": "women-career-day",
+    "name": "Сама собі заробила",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": true,
+    "isJar": false,
+    "isSubscription": false,
+    "isSpecified": false,
+    "minimumValue": 0,
+    "status": "active",
+    "description": "Скін «Сама собі заробила» — дизайн картки monobank у колаборації з Happy Monday до Women Career Day, кар’єрної події для жінок, що відбулася 6 червня 2026 року в Києві. Скін видавався учасницям за QR-кодом на плакатах із написом «Скін від mono для сильних і незалежних».\n\nСеред спікерок заходу була Олена Іванцова, Head of Recruitment mono — імовірно, саме завдяки їй скін і з’явився на події",
+    "link": "https://base.monobank.ua/ds/9WHoYeYRCHPdT8",
+    "img": "/skin/women-career-day.png",
+    "date": "2026-06-06"
   }
 }
