@@ -41,13 +41,13 @@ const priceClass = computed(() =>
       >
     </div>
 
-    <div class="mt-1 flex justify-between items-center">
-      <p class="text-md font-bold line-clamp-1">
+    <div class="mt-1 flex justify-between items-center gap-2">
+      <p class="text-md font-bold line-clamp-1 min-w-0">
         {{ title }}
       </p>
 
       <p
-        class="text-sm"
+        class="text-sm whitespace-nowrap shrink-0"
         :class="priceClass"
       >
         {{ priceText }}
