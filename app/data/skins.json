@@ -862,5 +862,37 @@
     "link": "",
     "img": "/skin/heraskevych-sholom-pamiati.png",
     "date": "2026-02-11"
+  },
+  "smak-gnomes": {
+    "id": "smak-gnomes",
+    "name": "Smak. Гноми",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": false,
+    "isJar": false,
+    "isSubscription": true,
+    "isSpecified": false,
+    "minimumValue": 148,
+    "status": "active",
+    "description": "Скін картки monobank для підписників телеграм-групи Smak — гумористичного українського медіа. Дизайн із гномами, що затуляють очі, вуха та рота, обіграє відому позу «нічого не бачу, не чую, не кажу», а в центрі композиції — гном у касці з логотипом Smak.\n\nСкін надається підписникам монобази Smak за оплату від 148 грн на сторінці base.monobank.ua/smak",
+    "link": "https://base.monobank.ua/smak#subscriptions",
+    "img": "/skin/smak-gnomes.png",
+    "date": "2026-01-06"
+  },
+  "torontotv-pig-monument": {
+    "id": "torontotv-pig-monument",
+    "name": "Телебачення Торонто. Пам'ятник свині",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": false,
+    "isJar": false,
+    "isSubscription": true,
+    "isSpecified": false,
+    "minimumValue": 300,
+    "status": "active",
+    "description": "Скін картки monobank «Пам'ятник свині» для підписників монобази українського сатиричного медіа «Телебачення Торонто». Підписники, які донатять від 300 грн щомісяця, отримують цей скін, а ті, хто оформив рівень підписки «Олександра» від 666 грн, додатково потрапляють у закритий патронський чат каналу.\n\nСкін надається на сторінці base.monobank.ua/torontotv",
+    "link": "https://base.monobank.ua/torontotv#subscriptions",
+    "img": "/skin/torontotv-pig-monument.png",
+    "date": "2025-02-24"
   }
 }
