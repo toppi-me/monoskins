@@ -1,5 +1,10 @@
 <script setup>
+const route = useRoute()
+const site = useSiteConfig()
+const canonical = computed(() => `${site.url}${route.path === '/' ? '' : route.path}`)
+
 useHead({
+  titleTemplate: title => title ? `${title} — monoskins` : 'monoskins',
   meta: [
     {
       name: 'viewport',
@@ -10,6 +15,10 @@ useHead({
     {
       rel: 'icon',
       href: '/favicon.ico'
+    },
+    {
+      rel: 'canonical',
+      href: canonical
     }
   ],
   htmlAttrs: {
@@ -18,17 +27,21 @@ useHead({
 })
 
 const title = 'Усі скіни Monobank'
-const description = ''
+const description = 'Неофіційний каталог скінів карток monobank — активні, лімітовані та архівні дизайни.'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: '',
-  twitterImage: '',
+  ogUrl: canonical,
+  ogSiteName: 'monoskins',
+  ogType: 'website',
+  ogLocale: 'uk_UA',
   twitterCard: 'summary_large_image'
 })
+
+defineOgImageComponent('Default')
 </script>
 
 <template>

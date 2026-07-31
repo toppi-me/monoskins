@@ -19,7 +19,11 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.12.1",
+    "@nuxt/fonts": "^0.14.0",
+    "@nuxtjs/sitemap": "^8.3.2",
+    "@takumi-rs/core": "^2.5.4",
     "eslint": "^9.39.2",
+    "nuxt-og-image": "^6.7.5",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.1"
   },

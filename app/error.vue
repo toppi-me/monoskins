@@ -13,7 +13,13 @@ const description = computed(() => is404.value ? 'Можливо, вона бу�
 
 useHead({
   title: `${props.error.statusCode} - ${title.value}`,
-  htmlAttrs: { lang: 'uk' }
+  htmlAttrs: { lang: 'uk' },
+  meta: [{ name: 'robots', content: 'noindex' }]
+})
+
+defineOgImageComponent('Default', {
+  title: title.value,
+  description: 'Поверніться на головну, щоб переглянути повний каталог скінів monobank.'
 })
 </script>
 
@@ -21,7 +27,7 @@ useHead({
   <UApp class="w-full min-h-screen flex flex-col">
     <UHeader
       title="monoskins"
-      :ui="{ toggle: 'hidden', panel: 'hidden' }"
+      :ui="{ toggle: 'hidden' }"
     >
       <template #left>
         <UButton

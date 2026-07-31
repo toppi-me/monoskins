@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type {Skin} from '~/interfaces/skin'
+import type { Skin } from '~/interfaces/skin'
 import skins from '~/data/skins.json'
 
 const filterItems = [
@@ -13,6 +13,18 @@ const filterItems = [
 ]
 
 const selected = ref<string>('Усі')
+
+const title = 'Усі скіни на картку Monobank'
+const description = `У каталозі ${Object.keys(skins).length} скінів monobank — з описами, умовами отримання та історією появи.`
+
+useSeoMeta({
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description
+})
+
+defineOgImageComponent('Default', { title, description })
 
 const skinsMap = skins as unknown as Record<string, Skin>
 

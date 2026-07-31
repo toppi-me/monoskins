@@ -96,19 +96,32 @@ const isAvailable = computed(() => skin.value?.status === 'active')
 
 const items: BreadcrumbItem[] = [
   { label: 'Головна', to: '/' },
-  { label: skin.value?.name, to: '/card/' + cardId.value }
+  { label: skin.value?.name, to: '/skin/' + cardId.value }
 ]
 
 const title = `Скін ${skin.value?.name} Monobank`
 
+const description = ogClamp(
+  (skin.value?.description ?? '').replace(/\s+/g, ' ').trim(),
+  160
+)
+
 useSeoMeta({
-  title: title,
-  description: skin.value?.description,
+  title,
+  description,
   ogTitle: title,
-  ogDescription: skin.value?.description,
-  ogImage: '',
-  twitterImage: '',
-  twitterCard: 'summary_large_image'
+  ogDescription: description,
+  ogType: 'article'
+})
+
+defineOgImageComponent('Skin', {
+  title: skin.value?.name,
+  image: skin.value?.img,
+  available: isAvailable.value,
+  badges: [
+    isAvailable.value ? 'Доступний' : 'Недоступний',
+    receiveCondition.value
+  ]
 })
 </script>
 
