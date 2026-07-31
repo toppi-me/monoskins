@@ -830,5 +830,21 @@
     "link": "https://base.monobank.ua/sternenkofund#subscriptions",
     "img": "/skin/sternenko-opora-spilnoty.png",
     "date": "2025-02-18"
+  },
+  "azov-odna-hryvnia": {
+    "id": "azov-odna-hryvnia",
+    "name": "Азовська Гривня",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": false,
+    "isJar": true,
+    "isSubscription": false,
+    "isSpecified": false,
+    "minimumValue": 1,
+    "status": "active",
+    "description": "Скін картки monobank «Одна Гривня» від АЗОВ.ONE — офіційного відділу фандрейзингу 12-ї бригади спеціального призначення «Азов» Нацгвардії України. Дизайн із номіналом «1» та бійцем у бойовому спорядженні символізує внесок кожного донатера у спільну справу.\n\nПоріг входу навмисно занижений до 1 грн, аби долучитися міг абсолютно кожен: саме з тисяч таких невеликих внесків АЗОВ.ONE щороку збирає сотні мільйонів гривень на потреби бригади.\n\nСкін надається за донат від 1 грн на банку",
+    "link": "https://send.monobank.ua/jar/4d9XFu2pab",
+    "img": "/skin/azov-odna-hryvnia.png",
+    "date": "2026-07-31"
   }
 }
