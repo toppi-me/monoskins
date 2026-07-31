@@ -21,13 +21,13 @@ export default defineNuxtConfig({
     name: 'monoskins'
   },
 
-  routeRules: {
-    '/': {
-      prerender: true
+  compatibilityDate: '2025-01-15',
+
+  nitro: {
+    prerender: {
+      routes: ['/', ...Object.keys(skins).map(id => `/skin/${id}`)]
     }
   },
-
-  compatibilityDate: '2025-01-15',
 
   eslint: {
     config: {
@@ -66,6 +66,7 @@ export default defineNuxtConfig({
   },
 
   ogImage: {
+    zeroRuntime: true,
     fontSubsets: ['latin', 'cyrillic'],
     defaults: {
       width: 1200,
@@ -75,6 +76,7 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
+    zeroRuntime: true,
     urls: Object.keys(skins).map(id => `/skin/${id}`)
   }
 })

@@ -16,11 +16,6 @@ useHead({
   htmlAttrs: { lang: 'uk' },
   meta: [{ name: 'robots', content: 'noindex' }]
 })
-
-defineOgImageComponent('Default', {
-  title: title.value,
-  description: 'Поверніться на головну, щоб переглянути повний каталог скінів monobank.'
-})
 </script>
 
 <template>
