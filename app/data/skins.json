@@ -570,7 +570,7 @@
     "isSpecified": true,
     "minimumValue": 0,
     "status": "expired",
-    "description": "Скін картки monobank, випущений на честь досягнення 10 000 000 клієнтів. Дизайн із лимонами пов’язаний із внутрішньою ігровою механікою «полювання на лимони», що проходила в застосунку протягом обмеженого часу. Скін нараховувався користувачам, які зібрали 10 \uD83C\uDF4B під час події",
+    "description": "Скін картки monobank, випущений на честь досягнення 10 000 000 клієнтів. Дизайн із лимонами пов’язаний із внутрішньою ігровою механікою «полювання на лимони», що проходила в застосунку протягом обмеженого часу. Скін нараховувався користувачам, які зібрали 10 🍋 під час події",
     "link": "",
     "img": "/skin/lemons.png",
     "date": "2025-10-16"
@@ -782,5 +782,53 @@
     "link": "https://base.monobank.ua/ds/9WHoYeYRCHPdT8",
     "img": "/skin/women-career-day.png",
     "date": "2026-06-06"
+  },
+  "sternenko-rusoriz": {
+    "id": "sternenko-rusoriz",
+    "name": "Русоріз",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": false,
+    "isJar": false,
+    "isSubscription": true,
+    "isSpecified": false,
+    "minimumValue": 50,
+    "status": "active",
+    "description": "Скін картки monobank, з’явився у лютому 2025 року, коли «Русоріз» Сергія Стерненка став першим збором, для якого monobank увімкнув можливість оформити щомісячну підписку на Base. Фонд закуповує FPV-дрони та сучасні засоби ураження для Збройних сил України.\n\nДизайн з фірмовою емблемою фонду отримують усі, хто оформив підписку від 50 грн на сторінці base.monobank.ua/rusoriz",
+    "link": "https://base.monobank.ua/rusoriz#subscriptions",
+    "img": "/skin/sternenko-rusoriz.png",
+    "date": "2025-02-18"
+  },
+  "sternenko-spivuchasnyk-rusorizu": {
+    "id": "sternenko-spivuchasnyk-rusorizu",
+    "name": "Співучасник Русорізу",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": false,
+    "isJar": false,
+    "isSubscription": true,
+    "isSpecified": false,
+    "minimumValue": 10,
+    "status": "active",
+    "description": "Скін «Співучасник Русорізу» — один з рівнів підписки на монобазу Стерненка «Опора Спільноти», доступний з лютого 2025 року після запуску підписок на Base в monobank. Кошти підписників ідуть на закупівлю FPV-дронів для ЗСУ у межах збору «Русоріз».\n\nСкін надається тим, хто оформив підписку від 10 грн на сторінці base.monobank.ua/sternenkofund",
+    "link": "https://base.monobank.ua/sternenkofund#subscriptions",
+    "img": "/skin/sternenko-spivuchasnyk-rusorizu.png",
+    "date": "2025-02-18"
+  },
+  "sternenko-opora-spilnoty": {
+    "id": "sternenko-opora-spilnoty",
+    "name": "Опора Спільноти",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": false,
+    "isJar": false,
+    "isSubscription": true,
+    "isSpecified": false,
+    "minimumValue": 1000,
+    "status": "active",
+    "description": "Скін найвищого рівня підписки монобази Стерненка «Опора Спільноти», доступний з лютого 2025 року після запуску підписок на Base в monobank. Темніший варіант дизайну відзначає найщедріших підписників збору «Русоріз», кошти якого спрямовуються на закупівлю FPV-дронів для ЗСУ.\n\nСкін надається тим, хто оформив підписку від 1000 грн на сторінці base.monobank.ua/sternenkofund",
+    "link": "https://base.monobank.ua/sternenkofund#subscriptions",
+    "img": "/skin/sternenko-opora-spilnoty.png",
+    "date": "2025-02-18"
   }
 }
