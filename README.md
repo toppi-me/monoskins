@@ -1,5 +1,7 @@
 # MonoSkins — Усі скіни monobank
 
+[English README.md](README.en.md)
+
 [![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
 
 **MonoSkins** — неофіційний каталог скінів карток monobank.  
@@ -27,34 +29,34 @@
 2. Оновіть інформацію про скін у файлі `app/data/skins.json` без зміни id та ключа.
 3. Створіть Pull Request до гілки `main`.
 
-## Setup
+## Розгортання
 
-Make sure to install the dependencies:
+Переконайтеся, що ви встановили залежності:
 
 ```bash
 pnpm install
 ```
 
-## Development Server
+## Сервер розробки
 
-Start the development server on `http://localhost:3000`:
+Запустіть сервер для розробки за адресою `http://localhost:3000`:
 
 ```bash
 pnpm dev
 ```
 
-## Production
+## Продакшн
 
-Build the application for production:
+Зберіть проєкт для продакшну:
 
 ```bash
 pnpm build
 ```
 
-Locally preview production build:
+Локальний перегляд зібраної продакшн-версії:
 
 ```bash
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Перегляньте [документацію з розгортання](https://nuxt.com/docs/getting-started/deployment) для отримання додаткової інформації.
