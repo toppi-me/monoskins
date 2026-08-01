@@ -24,7 +24,7 @@ useSeoMeta({
   ogDescription: description
 })
 
-defineOgImageComponent('Default', { title, description })
+defineOgImage('Default', { title, description })
 
 const skinsMap = skins as unknown as Record<string, Skin>
 

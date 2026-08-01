@@ -34,11 +34,11 @@ const priceClass = computed(() =>
   <div class="w-full h-full flex flex-col">
     <div
       class="relative w-full aspect-[1.58/1] overflow-hidden border border-muted rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/10 cursor-pointer">
-      <img
+      <SkinImage
         :src="img"
-        class="w-full h-full object-cover"
         :alt="`Скін ${title} Monobank`"
-      >
+        sizes="(min-width: 640px) 400px, 100vw"
+      />
     </div>
 
     <div class="mt-1 flex justify-between items-center gap-2">

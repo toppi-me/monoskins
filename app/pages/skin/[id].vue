@@ -114,7 +114,7 @@ useSeoMeta({
   ogType: 'article'
 })
 
-defineOgImageComponent('Skin', {
+defineOgImage('Skin', {
   title: skin.value?.name,
   image: skin.value?.img,
   available: isAvailable.value,
@@ -129,13 +129,15 @@ defineOgImageComponent('Skin', {
   <UContainer class="flex flex-col w-full max-w-264 justify-center gap-8 lg:mt-6">
     <div class="flex flex-col lg:flex-row gap-6 lg:gap-16 w-full justify-center">
       <div class="order-1 lg:order-2 w-full lg:w-auto flex justify-center">
-        <div class="flex flex-col gap-2 w-full max-w-96">
+        <div class="flex flex-col gap-2 w-full max-w-96 lg:w-96">
           <div class="relative aspect-[1.58/1] overflow-hidden border border-muted rounded-2xl">
-            <img
-              :src="skin?.img"
-              class="w-full h-full object-cover"
+            <SkinImage
+              v-if="skin?.img"
+              :src="skin.img"
               :alt="title"
-            >
+              sizes="384px"
+              priority
+            />
           </div>
 
           <div

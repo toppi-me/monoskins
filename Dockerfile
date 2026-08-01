@@ -6,6 +6,7 @@ COPY package*.json ./
 RUN npm install
 
 COPY . .
+RUN apk add --no-cache imagemagick imagemagick-webp && sh scripts/gen-webp.sh
 RUN npm run build
 
 

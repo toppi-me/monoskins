@@ -41,7 +41,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 
-defineOgImageComponent('Default')
+defineOgImage('Default')
 </script>
 
 <template>
