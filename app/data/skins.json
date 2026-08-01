@@ -894,5 +894,21 @@
     "link": "https://base.monobank.ua/torontotv",
     "img": "/skin/torontotv-pig-monument.png",
     "date": "2025-02-05"
+  },
+  "olenamandziuk": {
+    "id": "olenamandziuk",
+    "name": "Олена Мандзюк. Муза Русофобії",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": false,
+    "isJar": false,
+    "isSubscription": true,
+    "isSpecified": false,
+    "minimumValue": 99,
+    "status": "active",
+    "description": "Скін «Муза Русофобії» — дизайн картки monobank для підписників монобази Олени Мандзюк. За основу взято класичне полотно із жінкою, що читає в саду, поверх якого накладені рожеві піксельні блоки у вигляді вишиванкового орнаменту.\n\nСкін став доступним 9 червня 2026 року й надається за підписку від 99 грн на місяць",
+    "link": "https://base.monobank.ua/olenamandziuk",
+    "img": "/skin/olenamandziuk.png",
+    "date": "2026-06-09"
   }
 }
