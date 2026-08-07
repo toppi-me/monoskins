@@ -926,5 +926,21 @@
     "link": "",
     "img": "/skin/mono-7.png",
     "date": "2024-11-22"
+  },
+  "vichnyi-dvyhun": {
+    "id": "vichnyi-dvyhun",
+    "name": "Вічний двигун",
+    "isVisaOnly": false,
+    "isAdultOnly": false,
+    "isQR": true,
+    "isJar": false,
+    "isSubscription": false,
+    "isSpecified": false,
+    "minimumValue": 0,
+    "status": "active",
+    "description": "Скін «Вічний двигун» — дизайн картки monobank, що обіграє відомий парадокс: кіт завжди падає на лапи, а бутерброд — маслом донизу, тож прив’язаний до котячої спини бутерброд мав би крутитися вічно. Один із секретних скінів оновленого шкільного комплекту monobank (щоденник, 10 зошитів і наліпки для кастомізації). Доступний через QR-коди на зошитах комплекту, який перезапустили 7 серпня 2026 року. Першим скін показав Руслан Ігорович у Threads",
+    "link": "https://base.monobank.ua/ds/5CdXavd1JW8LGS",
+    "img": "/skin/vichnyi-dvyhun.png",
+    "date": "2026-08-07"
   }
 }
